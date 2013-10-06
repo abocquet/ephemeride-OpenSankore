@@ -46,7 +46,7 @@ function refreshDate(vue, date)
 	vue.mois.textContent = mois[date.getMonth()];
 	vue.annee.textContent = date.getFullYear();
 
-	vue.morale.innerHTML = pickQuote();
+	// vue.morale.innerHTML = pickQuote();
 }
 
 /*---------------------------------*/
@@ -58,7 +58,7 @@ var vue = {
 	jourAnnee: document.querySelector("#jourAnnee"),
 	mois: document.querySelector("#mois"),
 	annee: document.querySelector("#annee"),
-	morale: document.querySelector("#morale")
+	// morale: document.querySelector("#morale")
 };
 
 var date = new Date();
